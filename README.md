@@ -13,5 +13,11 @@ html files containing snapshots of all the cells of corresponding notebooks in a
 SQLLite db file containing data for Students and Scores that can be used to demonstrate the usecases in the code. Note that code to create these tables and insert values in them using Langchain has been provided as commented out lines in the Python notebooks.
 
 
+Steps to Run:
+1. Download Flask_Api.ipynb, LangChain.ipynb and student.db in the same directory.
+2. Open the jupyter notebook, Flask_Api.ipynb and run all the cells. This will make sure the Flask server is up and running.
+3. Open the jupyter notebook, LangChain.ipynb and run all the cells. Note than an openapi key will be required in one of the cells.
+4. No extra installation steps are required.
+
 NOTE: Extensive comments have been added to both the Python notebooks to explain the prerequisites, running and testing instructions and the details of all steps.
 For any further questions, please email me at divya.sardana@gmail.com.
